@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso a usuarios</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+
+<body>
+    <div class="cuerpo">
+        <div class="encabezado">
+            <header>
+                <h1>Acceso a usuarios</h1>
+                <div class="menu_posicion">
+                    <ul class="menu">
+                        <li><a href="index.html">Pincipal</a></li>
+                        <li><a href="Servicios.html">Servicios</a></li>
+                        <li><a href="Inscripciones.html">Inscripciones</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                        <li><a href="login.html">Acceso a usuarios</a></li>
+                    </ul>
+                </div>
+            </header>
+
+        </div>
+        <form class="formulario" action="Login.php" method="POST">
+            <h3>Formulario de acceso a usuarios</h3>
+            <label for="usuario"> Usuario: </label>
+            <input type="text" name="usuario" placeholder="Usuario">
+            <br /><br />
+            <label for="contraseña"> Password: </label>
+            <input type="password" name="contraseña" placeholder="Password">
+            <br /><br />
+            <input type="submit" value="Log In">
+            <br /><br />
+        </form>
+
+
+        <footer>
+            Programación web I - PW1
+        </footer>
+    </div>
+    </div>
+
+</body>
+
+</html>
